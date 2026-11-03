@@ -1,0 +1,15 @@
+name: MineColony
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A Minecraft plugin that creates a camp structure with a campfire.
+api-version: "1.21"
+commands:
+  colonie:
+    description: Give a camp item to the player or admin.
+    usage: /colonie give camp
+    permission: colonie.give
+permissions:
+  colonie.give:
+    description: Allows giving the camp item.
+    default: op
